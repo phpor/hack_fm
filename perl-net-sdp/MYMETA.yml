@@ -1,0 +1,32 @@
+---
+abstract: 'Session Description Protocol (rfc2327)'
+author:
+  - 'Nicholas J Humfrey, njh@cpan.org'
+build_requires:
+  Module::Build: 0.18
+dynamic_config: 0
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.110440'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Net-SDP
+provides:
+  Net::SDP:
+    file: lib/Net/SDP.pm
+    version: 0.07
+  Net::SDP::Media:
+    file: lib/Net/SDP/Media.pm
+    version: 0.07
+  Net::SDP::Time:
+    file: lib/Net/SDP/Time.pm
+    version: 0.07
+recommends:
+  LWP::Simple: 0
+requires:
+  Net::hostent: 0
+  Sys::Hostname: 0
+  perl: v5.5.0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.07

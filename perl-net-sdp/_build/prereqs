@@ -1,0 +1,15 @@
+do{ my $x = {
+       'build_requires' => {
+                             'Module::Build' => '0.18'
+                           },
+       'conflicts' => {},
+       'requires' => {
+                       'perl' => '5.5.0',
+                       'Net::hostent' => 0,
+                       'Sys::Hostname' => 0
+                     },
+       'recommends' => {
+                         'LWP::Simple' => 0
+                       }
+     };
+$x; }
